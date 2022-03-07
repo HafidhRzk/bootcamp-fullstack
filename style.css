@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    font-family: futura md bt;
+    background-color: #f3f3f3;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 7vh;
+}
+
+nav div {
+    display: flex;
+}
+
+nav .left-side {
+    flex: 50%;
+    align-items: center;
+}
+
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+nav .right-side a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.container-main {
+    display: flex;
+    background-color: #dcdfe4;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    width: 80%;
+    display: flex;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 1px 3px rgb(184, 181, 181);
+    font-family: futura md bt;
+       
+}
+
+.container-content .left-side {
+    flex: 60%;
+}
+
+.container-content .right-side {
+    flex: 40%;
+}
+
+.container-content .left-side .button-download {
+    display: flex;
+}
+
+.container-content .left-side .button-download .contact-button {
+    display: flex;
+    background-color: #111727;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.container-content .left-side .button-download .download-cv {
+    display: flex;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-content .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 150%;
+    padding-top: 40px;
+}
+
+.container-content .right-side {
+    display: flex;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: futura md bt;
+    text-align: center;
+    box-shadow: 1px 3px rgb(184, 181, 181);
+}
+
+/* BLOG STYLE */
+.blog-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #dcdfe4;
+    font-family: futura md bt;
+    text-align: left;
+    }
+    
+    .blog-form .form-container {
+    width: 500px;
+    }
+    
+    .blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+
+    .blog-form .Interval-Date {
+    display: flex;
+    flex: 100%;
+    }
+    
+    .blog-form form label {
+    font-size: 20px;
+    font-weight: 400;
+    }
+
+    .blog-form form input, textarea {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    }
+
+    .technologies {
+    display: flex;
+    }
+
+    .technologies .tech-left {
+    flex: 50%;
+    }
+
+    .technologies .tech-left .NodeJS {
+    display: flex;
+    width: 100%;
+    }
+
+    .technologies .tech-left .NodeJS input {
+    flex: 30%;
+    }
+
+    .technologies .tech-left .NodeJS label {
+    flex: 70%;
+    }
+
+    .technologies .tech-left .ReactJS {
+    display: flex;
+    width: 100%;
+    }
+
+    .technologies .tech-left .ReactJS input {
+    flex: 30%;
+    }
+    
+    .technologies .tech-left .ReactJS label {
+    flex: 70%;
+    }
+
+    .technologies .tech-right {
+    flex: 50%;
+    }
+    
+    .technologies .tech-right .NextJS {
+    display: flex;
+    width: 100%;
+    }
+    
+    .technologies .tech-right .NextJS input {
+    flex: 30%;
+    }
+    
+    .technologies .tech-right .NextJS label {
+    flex: 70%;
+    }
+    
+    .technologies .tech-right .TextScript {
+    display: flex;
+    width: 100%;
+    }
+    
+    .technologies .tech-right .TextScript input {
+    flex: 30%;
+    }
+        
+    .technologies .tech-right .TextScript label {
+    flex: 70%;
+    }
+        
+    .blog-form form textarea {
+    height: 150px;
+    }
+    
+    .blog-form form .input-blog-image-group {
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    }
+    
+    .blog-form form .input-blog-image-group label p {
+    display: flex;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #c4c4c4;
+    margin-block: auto;
+    border: 17px solid #c4c4c4;
+    font-size: 18px;
+    color: grey;
+    }
+    
+    .blog-form form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .blog-form form .button-group {
+    text-align: right;
+    }
+    
+    .blog-form form button {
+    padding: 5px 30px; 
+    background-color: #111727; 
+    border: none; 
+    border-radius: 15px;
+    color: white;
+    font-size: 17px;
+    margin-top: 50px;
+    cursor: pointer;
+    }
+
+    /* Blog list */
+
+    .blog {
+    text-align: center;
+    font-family: futura bk bt;
+    background-color: rgb(230, 224, 224);
+    }
+    
+    .blog hr {
+    border: 0px solid #ffffff;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .blog .blog-list {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    }
+
+    .blog .blog-list .blog-list-item {
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    background-color: white;
+    }
+
+    .blog .blog-list .blog-list-item .blog-image {
+    flex: 1;
+    }
+        
+    .blog .blog-list .blog-list-item .blog-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+
+    .blog .blog-list .blog-list-item .item-content {
+    text-align: left;
+    }
+
+    .blog .blog-list .blog-list-item .item-logo {
+    text-align: left;
+    font-size: 25px;
+    }
+
+    .blog .blog-list .blog-list-item .item-button {
+    width: 100%;
+    padding-top: 10px;
+    }
+
+    .blog .blog-list .blog-list-item .item-button .btn-edit{
+    padding: 5px 80px;
+    border: 0;
+    border-radius: 8px;
+    background: #000000;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+
+    .blog .blog-list .blog-list-item .item-button .btn-post{
+    padding: 5px 80px;
+    border: 0;
+    border-radius: 8px;
+    background: #000000;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+    
+    
+    .blog .blog-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    }
+    
+    /* Blog Detail */
+    .blog-detail {
+    display: flex;
+    justify-content: center;
+    background-color: #c4c4c4;
+    font-family: futura md bt;
+    padding: 8px;
+    }
+    
+    .blog-detail-container {
+    width: 80%;
+    margin: 40px;
+    }
+
+    .blog-detail-container .top-content {
+    display: flex;
+    padding: 40px;
+    }
+
+    .blog-detail-container .top-content .top-left {
+    flex: 65%;
+    padding: 20px;
+    }
+
+    .blog-detail-container .top-content .top-left img {
+    width: 100%;
+    object-fit: cover;
+    }
+
+    .blog-detail-container .top-content .top-right {
+    flex: 35%;
+    padding: 40px;
+    }
+
+    .fa-solid {
+    padding: 10px;
+    }
+
+    .fa-brands {
+    padding: 10px;
+    }
+
+    .blog-detail-tech {
+    display:flex;
+    font-size: 100%;
+    }
